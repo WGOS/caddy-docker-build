@@ -8,8 +8,8 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
-  REGISTRY_IMAGE: ghcr.io/${{ github.repository }}
+  IMAGE_NAME: wgos/caddy-docker-build
+  REGISTRY_IMAGE: ghcr.io/wgos/caddy-docker-build
 
 jobs:
   build:
