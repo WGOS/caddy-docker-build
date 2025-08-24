@@ -5,7 +5,7 @@ RUN xcaddy build \
     --with github.com/lucaslorentz/caddy-docker-proxy/v2 \
     --with github.com/caddy-dns/cloudflare \
     --with github.com/mholt/caddy-dynamicdns \
-    --with github.com/mholt/caddy-l4@ef01c22f5bb8313b299dcbb10813468177c47d8d \
+    --with github.com/mholt/caddy-l4@458cf97da12b5faa8d0ab8dfeb9ad67996b25b01 \
     --with github.com/fvbommel/caddy-combine-ip-ranges \
     --with github.com/WeidiDeng/caddy-cloudflare-ip
 
